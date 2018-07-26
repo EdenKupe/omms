@@ -1,7 +1,7 @@
 .defaultwrapper {
   display: grid;
   grid-template-columns: 4fr 4fr 4fr;
-  grid-template-rows: 2fr 6fr 2fr;
+  grid-template-rows: 2fr 12fr 2fr;
   height: 100vh;
 }
 
@@ -15,6 +15,38 @@
   grid-row: 2 / 3;
   grid-column: 1 / 4;
   background-color: black;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  grid-template-rows: 4fr 4fr 4fr;
+}
+
+.contentsection {
+  grid-row: 1 / 4;
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-rows: 4fr 4fr 4fr;
+  grid-template-columns: 4fr 4fr 4fr;
+}
+
+.title {
+  font-size: 20px;
+  color: white;
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+.heart {
+  font-size: 18px;
+  color: white;
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+}
+
+.head {
+  font-size: 18px;
+  color: white;
+  grid-row: 2 / 4;
+  grid-column: 3 / 4;
 }
 
 .defaultfooter {
