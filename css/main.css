@@ -8,7 +8,7 @@
 .defaultheader {
   grid-row: 1 / 2;
   grid-column: 1 / 4;
-  background-color: gold;
+  background-color: #DEB069;
 }
 
 .defaultcontent {
@@ -52,8 +52,8 @@
   text-align: center;
 }
 
-.defaultfooter {
+/*.defaultfooter {
   grid-row: 3 / 4;
   grid-column: 1 / 4;
   background-color: gold;
-}
+}*/
