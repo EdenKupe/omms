@@ -12,7 +12,7 @@
 }
 
 .defaultcontent {
-  grid-row: 2 / 3;
+  grid-row: 2 / 4;
   grid-column: 1 / 4;
   background-color: black;
   display: grid;
@@ -50,6 +50,12 @@
   grid-row: 2 / 4;
   grid-column: 3 / 4;
   text-align: center;
+}
+
+.hearttext {
+  font-size: 18px;
+  color: white;
+  text-align: left;
 }
 
 /*.defaultfooter {
