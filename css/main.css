@@ -114,3 +114,51 @@ ul {
   grid-column: 1 / 4;
   background-color: gold;
 }*/
+
+/* Media Queries Begin */
+
+@media screen and (max-width: 450px) {
+  p {
+    text-shadow: 1px 1px 1px #fff;
+  }
+
+  .title {
+    margin-top: 30px;
+  }
+
+  .heart {
+    margin-left: 0;
+    grid-column: 1 / 4;
+    text-align: center;
+    grid-row: 1;
+    margin-top: 160px;
+  }
+
+  .heartitle {
+    display:none;
+  }
+
+  .hearttext {
+    text-align: center;
+  }
+
+  .head {
+    grid-row: 2;
+    grid-column: 1 / 4;
+    margin-right: 0;
+    /* margin-top: 80px; */
+    text-shadow: 1px 1px 1px #fff;
+  }
+
+  .headtitle {
+    display: none;
+  }
+
+  .headtext {
+    text-align: center;
+  }
+
+  .guts {
+    display: none;
+  }
+}
