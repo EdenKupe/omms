@@ -3,6 +3,10 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+a:-webkit-any-link{
+  color: #CCCCFF;
+}
+
 ul {
   -webkit-margin-before: none;
   -webkit-margin-after: none;
@@ -109,11 +113,13 @@ ul {
   text-align: left;
 }
 
-/*.defaultfooter {
-  grid-row: 3 / 4;
-  grid-column: 1 / 4;
-  background-color: gold;
-}*/
+.defaultfooter {
+  grid-row: 4 / 4;
+  grid-column: 2 / 3;
+  background-color: transparent;
+  text-align: center;
+  color: #fff;
+}
 
 /* Media Queries Begin */
 
@@ -159,6 +165,10 @@ ul {
   }
 
   .guts {
+    display: none;
+  }
+
+  .defaultfooter {
     display: none;
   }
 }
